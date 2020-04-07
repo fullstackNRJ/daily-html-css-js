@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>The power of Flex 💪</title>
+  <link href='https://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <style>
+    html {
+      box-sizing: border-box;
+      background: #ffc600;
+      font-family: 'helvetica neue';
+      font-size: 20px;
+      font-weight: 200;
+    }
+
+    body {
+      margin: 0;
+    }
+
+    *,
+    *:before,
+    *:after {
+      box-sizing: inherit;
+    }
+
+
+    .panel1 {
+      background-image: url(https://i.postimg.cc/vZx06sDy/bolltimo.jpg);
+      cursor: pointer;
+    }
+
+    .panel2 {
+      background-image: url(https://i.postimg.cc/W4NzD2bY/wanghao.jpg);
+      cursor: pointer;
+    }
+
+    .panel3 {
+      background-image: url(https://i.postimg.cc/Zn7FQfs4/bscozs.jpg);
+      cursor: pointer;
+    }
+
+    .panel4 {
+      background-image: url(https://i.postimg.cc/7brYq4WV/ma-long1.jpg);
+      cursor: pointer;
+    }
+
+    .panel5 {
+      background-image: url(https://i.postimg.cc/ZRYNh8dR/fzd.jpg);
+      cursor: pointer;
+    }
+  </style>
+
+
+  <div class="panels">
+    <div class="panel panel1">
+      <p>Timo</p>
+      <p>Legend</p>
+      <p>Boll</p>
+    </div>
+    <div class="panel panel2">
+      <p>Wang</p>
+      <p>Hilarious</p>
+      <p>Hao</p>
+    </div>
+    <div class="panel panel3">
+      <p>Bernadette</p>
+      <p>shrieker</p>
+      <p>Szőcs</p>
+    </div>
+    <div class="panel panel4">
+      <p>Ma</p>
+      <p>Dragon</p>
+      <p>Long</p>
+    </div>
+    <div class="panel panel5">
+      <p>Fan</p>
+      <p>God Speed</p>
+      <p>Zhendong</p>
+    </div>
+  </div>
+
+  <script>
+    const panels = document.querySelectorAll('.panel')
+
+    const togglePanel = (p, e) => {
+      p.classList.toggle('open');
+    }
+
+    const toggleText = (p, e) => {
+      if (e.propertyName.includes('flex')) p.classList.toggle('open-active');
+    }
+
+    panels.forEach(panel => {
+      panel.addEventListener('click', togglePanel.bind(null, panel))
+      panel.addEventListener('transitionend', toggleText.bind(null, panel))
+    })
+
+
+
+  </script>
+
+
+
+</body>
+
+</html>

@@ -18,5 +18,6 @@ Motivate yourself to code daily till 60 days, and see the magic!
 | Day | Topic | Link | Summary |
 | ---------- | ----- | ------------ | ---------: |
 | [Day 1](./Day1) | [Simple Clock](./Day1/) | [codepen.io]() | [Takeaways]() |
+| [Day 2](./Day2) | [Flex image gallery](./Day2/) | [codepen.io]() | [Takeaways]() |
 
 

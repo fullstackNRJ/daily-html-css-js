@@ -8,28 +8,52 @@
     <title>Digital clock</title>
     <style>
         body {
-            background: rgb(11, 14, 14)
+            background: rgb(202, 241, 241);
         }
-        
-        .clock {
-            font-size: 3em;
-            text-align: center;
-            margin: 200px;
-            color: darkturquoise;
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        .container{
+            width: 1024px;
+           
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: stretch;
+        }
+
+        .clock__analog{
+            width:1000px;
+            height:50%;
+            background-color: azure;
+            align-self: flex-start;
             
         }
-        
-        .clock span {
-            padding: 20px;
-            background: rgb(47, 68, 68);
-            
+
+        .clock__digital{
+            background-color: black;
+            align-self: flex-end;
         }
+
+        
     </style>
 </head>
 
 <body>
-    <div class="clock"></div>
+    <div class="container">
+
+        <div class="clock__analog">
+            <div class="clock-face">
+                <div class="hand hour-hand"></div>
+                <div class="hand min-hand"></div>
+                <div class="hand second-hand"></div>
+            </div>
+        </div>
+
+
+        <div class="clock__digital">
+            <div class="display_time"></div>
+        </div>
+
+    </div>
     <script src="main.js"></script>
 </body>
 
