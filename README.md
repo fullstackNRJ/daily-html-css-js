@@ -19,5 +19,6 @@ Motivate yourself to code daily till 60 days, and see the magic!
 | ---------- | ----- | ------------ | ---------: |
 | [Day 1](./each%20day%20build%20day!/Day%201/) | [Simple Clock](./each%20day%20build%20day!/Day%201/) | [codepen.io]() | [Takeaways](./each%20day%20build%20day!/Day%201/README.md) |
 | [Day 2](./each%20day%20build%20day!/Day%202/) | [Flex image gallery](./each%20day%20build%20day!/Day%202/) | [demo](https://powerofflex.z22.web.core.windows.net/) | [Takeaways](./each%20day%20build%20day!/Day%202/README.md/) |
+| [Day 3](./each%20day%20build%20day!/Day%203/) | [css variables](./each%20day%20build%20day!/Day%203/) | [demo](https://powerofflex.z22.web.core.windows.net/) | [Takeaways](./each%20day%20build%20day!/Day%202/README.md/) |
 
 

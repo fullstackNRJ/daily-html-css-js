@@ -15,6 +15,6 @@ transition effects. It has a nested flex box, all three text block are flex item
 
 # Demo
 
-![](demo.gif)
+![](demo.gif){:class="img-responsive"}
 
 
