@@ -21,4 +21,5 @@ Motivate yourself to code daily till 60 days, and see the magic!
 | [Day 2](./each%20day%20build%20day!/Day%201/) | [Flex image gallery](./each%20day%20build%20day!/Day%202/) | [demo](https://powerofflex.z22.web.core.windows.net/) | [Takeaways](./each%20day%20build%20day!/Day%202/README.md/) |
 | [Day 3](./each%20day%20build%20day!/Day%203/) | [css variables](./each%20day%20build%20day!/Day%203/) | [demo](https://powerofflex.z22.web.core.windows.net/) | [Takeaways](./each%20day%20build%20day!/Day%203/README.md/) |
 | [Day 4](./each%20day%20build%20day!/Day%204/) | [Array Methods](./each%20day%20build%20day!/Day%203/) | [demo](https://powerofflex.z22.web.core.windows.net/) | [Takeaways](./each%20day%20build%20day!/Day%204/README.md/) |
+| [Day 5](./each%20day%20build%20day!/Day%205/) | [Memory Game](./each%20day%20build%20day!/Day%205/) | [demo](https://powerofflex.z22.web.core.windows.net/) | [Takeaways](./each%20day%20build%20day!/Day%205/README.md/) |
 

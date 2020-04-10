@@ -1,0 +1,4 @@
+known issues :
+- not responsive
+- double click on same cards triggers a match
+- 
