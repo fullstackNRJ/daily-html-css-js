@@ -16,6 +16,10 @@ body{
     justify-content: space-around;
 }
 
+.rules li{
+    font-size: 1.5em;
+}
+
 
 h3{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -40,6 +44,7 @@ h3{
     width: 8rem;
     padding: .2rem .2rem;
     border: .1rem solid;
+    transition: all .2s;
 }
 
 .footer{

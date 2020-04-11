@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>❓ Broken Piano 🎹 </title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h2>JS based piano 🎹 </h2>
+
+        <p>A piano built using basic html, css & vanilla JS. Currently, it has only major notes 🎼  
+
+            plans are to transfer it into fully functional piano.
+
+            
+        </p>
+
+        <div class="keys">
+            <div data-key="65" class="key">
+                <kbd>A</kbd>
+                <span class="sound">A</span>
+            </div>
+            <div data-key="83" class="key">
+                <kbd>S</kbd>
+                <span class="sound">B</span>
+            </div>
+            <div data-key="68" class="key">
+                <kbd>D</kbd>
+                <span class="sound">C</span>
+            </div>
+            <div data-key="70" class="key">
+                <kbd>F</kbd>
+                <span class="sound">D</span>
+            </div>
+            <div data-key="71" class="key">
+                <kbd>G</kbd>
+                <span class="sound">E</span>
+            </div>
+            <div data-key="72" class="key">
+                <kbd>H</kbd>
+                <span class="sound">F</span>
+            </div>
+            <div data-key="74" class="key">
+                <kbd>J</kbd>
+                <span class="sound">G</span>
+            </div>
+            <div data-key="75" class="key">
+                <kbd>K</kbd>
+                <span class="sound">A#</span>
+            </div>
+            <div data-key="76" class="key">
+                <kbd>L</kbd>
+                <span class="sound">B'</span>
+            </div>
+        </div>
+
+    </div>
+
+    <!--Audio files hooked with data-key 1-1 mapping-->
+    <audio data-key="65" src="sounds/A_.wav"></audio>
+    <audio data-key="83" src="sounds/B_.wav"></audio>
+    <audio data-key="68" src="sounds/C_.wav"></audio>
+    <audio data-key="70" src="sounds/d.wav"></audio>
+    <audio data-key="71" src="sounds/E_.wav"></audio>
+    <audio data-key="72" src="sounds/F_.wav"></audio>
+    <audio data-key="74" src="sounds/G_.wav"></audio>
+    <audio data-key="75" src="sounds/piano_A0.wav"></audio>
+    <audio data-key="76" src="sounds/piano1.wav"></audio>
+
+</body>
+
+</html>
