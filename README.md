@@ -23,5 +23,6 @@ Motivate yourself to code daily till 60 days, and see the magic!
 | [Day 4](./each%20day%20build%20day!/Day%204/) | [Array Methods](./each%20day%20build%20day!/Day%203/) | [demo](https://powerofflex.z22.web.core.windows.net/) | [Takeaways](./each%20day%20build%20day!/Day%204/README.md/) |
 | [Day 5](./each%20day%20build%20day!/Day%205/) | [Memory Game](./each%20day%20build%20day!/Day%205/) | [demo](https://powerofflex.z22.web.core.windows.net/) | [Takeaways](./each%20day%20build%20day!/Day%205/README.md/) |
 | [Day 6](./each%20day%20build%20day!/Day%206/) | [The Broken Piano](./each%20day%20build%20day!/Day%206/) | [demo](https://powerofflex.z22.web.core.windows.net/) | [Takeaways](./each%20day%20build%20day!/Day%206/README.md/) |
-| [Day 7](./each%20day%20build%20day!/Day%207/) | [The Broken Piano](./each%20day%20build%20day!/Day%207/) | [demo](https://powerofflex.z22.web.core.windows.net/) | [Takeaways](./each%20day%20build%20day!/Day%207/README.md/) |
+| [Day 7](./each%20day%20build%20day!/Day%207/) | [Ajax search bar](./each%20day%20build%20day!/Day%207/) | [demo](https://powerofflex.z22.web.core.windows.net/) | [Takeaways](./each%20day%20build%20day!/Day%207/README.md/) |
+| [Day 8](./each%20day%20build%20day!/Day%208/) | [Whack covid-19](./each%20day%20build%20day!/Day%208/) | [demo](https://whackcovid19.z22.web.core.windows.net/) | [Takeaways](./each%20day%20build%20day!/Day%208/README.md/) |
 

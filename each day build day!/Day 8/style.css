@@ -1,0 +1,89 @@
+html{
+    font-size: 62.5%;
+    line-height: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(209, 207, 207);
+}
+
+
+.container{
+    max-height: 80rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-content: center;
+}
+
+h1{
+    align-self: center;
+}
+
+
+.rules{
+    align-self:center;
+}
+
+.rules p{
+    font-size: 1.5rem;
+}
+.rules li{
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+}
+
+
+.game{
+    
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.btn{
+    
+    margin-bottom:-2rem;
+    align-self: center;
+    padding: .52rem;
+}
+
+button{
+    cursor: pointer;
+    background-color: rgb(94, 101, 107);
+    color:rgb(0, 0, 0);
+    width : 6rem;
+    height: 3rem;
+}
+.btn-start{
+    margin-right : .4rem;
+    
+
+}
+
+.box{
+    cursor: pointer;
+    height: 12rem;
+    width: 12rem;
+    border: .1rem solid #333;
+}
+
+.grid{
+    align-self: center;
+    height: 48rem;
+    width: 48rem;
+    margin-top: .1rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.virus{
+    background: url('./1319481320.svg');
+    background-size:cover;   
+}
+
+footer{
+    align-self: center;
+    font-size: 1.4rem;
+}
