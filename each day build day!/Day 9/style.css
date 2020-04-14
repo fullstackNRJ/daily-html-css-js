@@ -1,0 +1,63 @@
+html, body {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 62.5%;
+    background-color: #222;
+  }
+  .container{
+      min-height: 100rem;
+      display: flex;
+      flex-direction:column;
+      justify-content: space-evenly;
+      align-items: center;
+  }
+
+  h1{
+      font-size: 3rem;
+      background: -webkit-linear-gradient(left, rgb(0, 162, 255) , yellow, green, cyan, blue, violet); /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(right, orange, yellow, green, cyan, rgb(223, 80, 24), violet); /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(right, rgb(0, 204, 255), yellow, green, rgb(46, 158, 158), blue, violet); /* For Firefox 3.6 to 15 */
+      background: linear-gradient(to right, rgb(233, 26, 43) , yellow, green, cyan, blue, violet); /* Standard syntax (must be last) */
+      -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+  }
+  .toolbar{
+      width: 60rem;
+      height: 6rem;
+      display:flex;
+      align-items: center;
+      justify-content: space-evenly;
+      background-color: rgba(243, 237, 243, 0.877);
+      
+  }
+
+
+  label{
+      font-family: sans-serif;
+      font-size:1.2rem;
+  }
+  .color-picker{
+        margin-top: -1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;    
+       
+  }
+
+  .thickness{
+    margin-top: -1rem; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  input,select, button{
+      cursor: pointer;
+  }
+
+  .drawing-area{
+      background-color: #f0f8ff;
+      cursor:url('cursor.cur'),auto;
+  }

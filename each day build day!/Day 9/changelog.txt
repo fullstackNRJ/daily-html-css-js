@@ -1,0 +1,11 @@
+features planned :
+
+- option to save and download
+- multi-touch support
+- more tools
+- 
+
+issues :
+- offseting touch input
+- organize code into more functions
+- documentation

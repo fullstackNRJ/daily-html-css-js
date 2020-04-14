@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> HTML5 Canvas 🎨 </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        
+        <h1> Canvas Sketchpad 🎨 </h1>
+        
+        <div class="toolbar">
+            
+            <div class="color-picker">
+                <label for="color-picker">Color</label>
+                <input type="color" name="color-picker" id="color-pick" >
+            
+            </div>
+
+        <div class="thickness">
+        
+        <label for="thickness">Thickness</label>
+            <select name="" id="brush-width">
+                <option value="10">10</option>
+                <option value="20">20</option>
+                <option value="30">30</option>
+                <option value="50">50</option>
+                <option value="100">100</option>
+                <option value="">random</option>
+            </select>
+        </div>
+
+            <button onclick="setColor()">Eraser</button>
+
+            <input type="submit" value="Clear Sketchpad" onclick="clearCanvas()">
+        </div>    
+            
+        <div class="drawing-area">
+                <canvas id="draw" width="800" height="600"></canvas>
+        </div>
+        
+</div>
+
+     
+    <script defer src="./app.js"></script>
+</body>
+</html>
