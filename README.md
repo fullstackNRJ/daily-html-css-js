@@ -26,4 +26,5 @@ Motivate yourself to code daily till 60 days, and see the magic!
 | [Day 7](./each%20day%20build%20day!/Day%207/) | [Ajax search bar](./each%20day%20build%20day!/Day%207/) | [demo](https://powerofflex.z22.web.core.windows.net/) | [Takeaways](./each%20day%20build%20day!/Day%207/README.md/) |
 | [Day 8](./each%20day%20build%20day!/Day%208/) | [Whack covid-19](./each%20day%20build%20day!/Day%208/) | [demo](https://whackcovid19.z22.web.core.windows.net/) | [Takeaways](./each%20day%20build%20day!/Day%208/README.md/) |
 | [Day 9](./each%20day%20build%20day!/Day%209/) | [Sketchpad](./each%20day%20build%20day!/Day%209/) | [demo](https://codepen.io/neeraj-mukta/pen/RwWWBNw) | [Takeaways](./each%20day%20build%20day!/Day%209/README.md/) |
+| [Day 10](./each%20day%20build%20day!/Day%2010/) | [Infinite scrolling ComicBook](./each%20day%20build%20day!/Day%2010/) | [demo]() | [Takeaways](./each%20day%20build%20day!/Day%2010/README.md/) |
 
