@@ -1,0 +1,11 @@
+:root{
+    font-size: 62.5%;
+}
+.container{
+    min-height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
