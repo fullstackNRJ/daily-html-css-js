@@ -1,0 +1,6 @@
+Bugs :
+- progressbar isn't working
+- unresponsiveness
+- bad icons
+- full-screen no control on hover
+- no feedback for keyboard keys like space, right, left,
