@@ -30,3 +30,4 @@ Motivate yourself to code daily till 30 days, and see the magic!
 | [Day 11](./each%20day%20build%20day!/Day%11/) | [Drag & Drop File Upload](./each%20day%20build%20day!/Day%2011/) | [demo]() | [Takeaways](./each%20day%20build%20day!/Day%2011/README.md/) |
 | [Day 12](./each%20day%20build%20day!/Day%12/) | [Multi select checkboxes](./each%20day%20build%20day!/Day%2012/) | [demo]() | [Takeaways](./each%20day%20build%20day!/Day%2012/README.md/) |
 | [Day 13](./each%20day%20build%20day!/Day%13/) | [Custom video player](./each%20day%20build%20day!/Day%2013/) | [demo]() | [Takeaways](./each%20day%20build%20day!/Day%2013/README.md/) |
+| [Day 14](./each%20day%20build%20day!/Day%14/) | [Key sequence detection](./each%20day%20build%20day!/Day%2014/) | [demo]() | [Takeaways](./each%20day%20build%20day!/Day%2014/README.md/) |

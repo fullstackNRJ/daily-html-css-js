@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Key Sequence (Konami sequence) 🐣 </title>
+    <style>
+        body {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            line-height: 2em;
+        }
+
+        .container {
+            min-height: 800px;
+            background-color: rgb(142, 146, 146);
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+
+        }
+
+        li {
+            list-style: armenian;
+            font-size: 23px;
+            color: rgb(44, 12, 12);
+        }
+
+        .display {
+            height: 300px;
+            width: 400px;
+            background: #fff;
+        }
+    </style>
+    <script type="text/javascript" src="https://www.cornify.com/js/cornify.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>How key sequence works in editors ?</h1>
+        <h3>Remember, that cool mario hack up up down down left right left right B A. <br>
+            Well I always wondered how it worked ? <br>
+            Similarily, in editors and ide we see combination of keys for a particular activity.
+        </h3>
+
+        <ul>
+            <li>Type pikapika and see the magic</li>
+            <li>Type charizad and see the magic</li>
+            <li>Type your name</li>
+        </ul>
+
+        <div class="display">
+
+        </div>
+
+
+    </div>
+
+
+    <script>
+        const pressed = [];
+        window.addEventListener('keyup', e => {
+            pressed.push(e.key);
+            console.log(pressed);
+            const secretCode = 'pikapika'
+            const secretCode2 = 'charizad'
+            pressed.splice(-secretCode.length - 1, pressed.length - secretCode.length);
+            if (pressed.join('').includes(secretCode) || pressed.join('').includes(secretCode2)) {
+            
+                cornify_add();
+            }
+            //console.log(pressed);
+        });
+
+    </script>
+</body>
+
+</html>
