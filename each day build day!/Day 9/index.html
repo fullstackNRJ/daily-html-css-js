@@ -33,9 +33,9 @@
             </select>
         </div>
 
-            <button onclick="setColor()">Eraser</button>
+            <button class ="btn-eraser" onclick="setColor()">Eraser</button>
 
-            <input type="submit" value="Clear Sketchpad" onclick="clearCanvas()">
+            <input type="submit" value="Clear Sketchpad" onclick="clearCanvas(canvas,ctx);">
         </div>    
             
         <div class="drawing-area">
@@ -45,6 +45,6 @@
 </div>
 
      
-    <script defer src="./app.js"></script>
+    <script defer src="app.js"></script>
 </body>
 </html>
