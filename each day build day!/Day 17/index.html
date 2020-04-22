@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mouse Shadow 🐁 </title>
+</head>
+
+<body>
+
+    <div class="hero">
+        <h1 contenteditable>🔥Mouse Shadow effect</h1>
+    </div>
+
+    <style>
+        html {
+            color: black;
+            font-family: sans-serif;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: black;
+        }
+
+        h1 {
+            text-shadow: 10px 10px 0 rgba(0, 0, 0, 1);
+            font-size: 100px;
+        }
+    </style>
+
+    <script>
+        const hero = document.querySelector('.hero')
+        const h1 = hero.querySelector('h1');
+        const range = 300;
+
+
+
+
+        function shadow(e) {
+            //our play area
+            const { offsetWidth: width, offsetHeight: height } = hero;
+            //get the exact mouse pointer co-orderinates
+            let { offsetX: x, offsetY: y } = e;
+
+            //update the values of get absolute values;
+            //this === hero element
+            if (this !== e.target) {
+                x = x + e.target.offsetLeft; // to fix resetting of co-ordinates (0,0) at top,left of h1
+                y = y + e.target.offsetTop;
+            }
+
+            //then adjust the offset by defining the range(max, min) 30,-30
+            const xRange = Math.round((x / width * range) - (range / 2));
+            const yRange = Math.round((y / height * range) - (range / 2));
+
+            //finally update the textshadow property
+            h1.style.textShadow = `
+            ${xRange}px ${yRange}px 0 rgba(255,0,255,0.7),
+            ${xRange * -1}px ${yRange}px 0 rgba(0,255,255,0.7),
+            ${yRange}px ${xRange * -1}px 0 rgba(0,255,12,0.7),
+            ${yRange * -1}px ${xRange}px 0 rgba(0,0,255,0.7)
+            
+            `
+
+        }
+
+        hero.addEventListener('mousemove', shadow)
+    </script>
+</body>
+
+</html>
