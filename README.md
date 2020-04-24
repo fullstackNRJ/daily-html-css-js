@@ -35,3 +35,4 @@ Motivate yourself to code daily till 30 days, and see the magic!
 | [Day 16](./each%20day%20build%20day!/Day%16/) | [Reference vs copy](./each%20day%20build%20day!/Day%2016/) | [demo]() | [Takeaways](./each%20day%20build%20day!/Day%2016/README.md/) |
 | [Day 17](./each%20day%20build%20day!/Day%17/) | [Mouseover Shadow](./each%20day%20build%20day!/Day%2017/) | [demo]() | [Takeaways](./each%20day%20build%20day!/Day%2017/README.md/) |
 | [Day 18](./each%20day%20build%20day!/Day%18/) | [Custom sorting names](./each%20day%20build%20day!/Day%2018/) | [demo]() | [Takeaways](./each%20day%20build%20day!/Day%2018/README.md/) |
+| [Day 19](./each%20day%20build%20day!/Day%19/) | [Reducing time](./each%20day%20build%20day!/Day%2019/) | [demo]() | [Takeaways](./each%20day%20build%20day!/Day%2019/README.md/) |
