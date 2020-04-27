@@ -1,0 +1,8 @@
+bugs
+- unable to save multilines
+- speech detection is slow
+
+
+features
+- option to select languages
+- save in multiple format

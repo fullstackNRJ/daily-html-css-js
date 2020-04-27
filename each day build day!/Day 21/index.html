@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech to File app 📁</title>
+    
+</head>
+
+<body>
+    <h1>Speech to text 🎤 </h1>
+    <div class="editor" contenteditable></div>
+
+    <input type="button" class="btn" onclick="convertToTextFile()" value ="download">
+
+<style>
+html {
+    font-size: 10px;
+  }
+
+  body {
+    background: #1c7ae6;
+    font-family: 'helvetica neue';
+    font-weight: 200;
+    font-size: 20px;
+  }
+  h1{
+      margin: auto 38%;
+  }
+  .editor {
+    max-width: 500px;
+    margin: 50px auto;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 10px 10px 0 rgba(0,0,0,0.1);
+    padding: 1rem 2rem 1rem 5rem;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#d9eaf3), color-stop(4%, #fff)) 0 4px;
+    background-size: 100% 3rem;
+    position: relative;
+    line-height: 3rem;
+  }
+  
+  p {
+    margin: 0 0 3rem;
+  }
+
+  .editor:before {
+    content: '';
+    position: absolute;
+    width: 4px;
+    top: 0;
+    left: 30px;
+    bottom: 0;
+    border: 1px solid;
+    border-color: transparent #efe4e4;
+  }
+  
+  .btn{
+      
+      margin:5px 45%;
+
+  }
+  
+  
+  </style>
+<script defer src="main.js"></script>
+</body>
+
+</html>

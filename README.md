@@ -37,3 +37,4 @@ Motivate yourself to code daily till 30 days, and see the magic!
 | [Day 18](./each%20day%20build%20day!/Day%2018/) | [Custom sorting names](./each%20day%20build%20day!/Day%2018/) | [demo]() | [Takeaways](./each%20day%20build%20day!/Day%2018/README.md/) |
 | [Day 19](./each%20day%20build%20day!/Day%2019/) | [Reducing time](./each%20day%20build%20day!/Day%2019/) | [demo]() | [Takeaways](./each%20day%20build%20day!/Day%2019/README.md/) |
 | [Day 20](./each%20day%20build%20day!/Day%2020/) | [Sticky Nav](./each%20day%20build%20day!/Day%2020/) | [demo]() | [Takeaways](./each%20day%20build%20day!/Day%2020/README.md/) |
+| [Day 21](./each%20day%20build%20day!/Day%2021/) | [Speech Recognition](./each%20day%20build%20day!/Day%2021/) | [demo]() | [Takeaways](./each%20day%20build%20day!/Day%2021/README.md/) |
