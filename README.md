@@ -40,3 +40,4 @@ Motivate yourself to code daily till 30 days, and see the magic!
 | [Day 21](./each%20day%20build%20day!/Day%2021/) | [Speech Recognition](./each%20day%20build%20day!/Day%2021/) | [demo]() | [Takeaways](./each%20day%20build%20day!/Day%2021/README.md/) |
 | [Day 22](./each%20day%20build%20day!/Day%2022/) | [Not to do list](./each%20day%20build%20day!/Day%2022/) | [demo]() | [Takeaways](./each%20day%20build%20day!/Day%2022/README.md/) |
 | [Day 23](./each%20day%20build%20day!/Day%2023/) | [Speedometer and Compass](./each%20day%20build%20day!/Day%2023/) | [demo]() | [Takeaways](./each%20day%20build%20day!/Day%2023/README.md/) |
+| [Day 24](./each%20day%20build%20day!/Day%2024/) | [Pointer Highlighter](./each%20day%20build%20day!/Day%2024/) | [demo]() | [Takeaways](./each%20day%20build%20day!/Day%2024/README.md/) |
