@@ -43,3 +43,4 @@ Motivate yourself to code daily till 30 days, and see the magic!
 | [Day 24](./each%20day%20build%20day!/Day%2024/) | [Pointer Highlighter](./each%20day%20build%20day!/Day%2024/) | [demo]() | [Takeaways](./each%20day%20build%20day!/Day%2024/README.md/) |
 | [Day 25](./each%20day%20build%20day!/Day%2025/) | [Event bubbling, capture and once](./each%20day%20build%20day!/Day%2025/) | [demo]() | [Takeaways](./each%20day%20build%20day!/Day%2025/README.md/) |
 | [Day 26](./each%20day%20build%20day!/Day%2026/) | [Text to Speech](./each%20day%20build%20day!/Day%2026/) | [demo]() | [Takeaways](./each%20day%20build%20day!/Day%2026/README.md/) |
+| [Day 27](./each%20day%20build%20day!/Day%2027/) | [Fancy Dropdown like stripe](./each%20day%20build%20day!/Day%2027/) | [demo]() | [Takeaways](./each%20day%20build%20day!/Day%2027/README.md/) |
