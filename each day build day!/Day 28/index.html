@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="display"></div>
+        <div class="calc">
+            <div class="helper">
+                <div class="keys C" data-key="clear">C</div>
+                <div class="keys AC" date-key="clear">AC</div>
+                <div class="keys bcksp" data-key="erase"> ↩ </div>
+            </div>
+            <div class="numeric">
+                <div class="keys" data-key="7">7</div>
+                <div class="keys" data-key="8">8</div>
+                <div class="keys" data-key="9">9</div>
+                <div class="keys" data-key="4">4</div>
+                <div class="keys" data-key="5">5</div>
+                <div class="keys" data-key="6">6</div>
+                <div class="keys" data-key="1">1</div>
+                <div class="keys" data-key="2">2</div>
+                <div class="keys" data-key="3">3</div>
+                <div class="keys" data-key="0">0</div>
+
+                <div class="keys symbol" data-key="+">+</div>
+                <div class="keys symbol" data-key="-">-</div>
+                <div class="keys symbol" data-key="/">/</div>
+                <div class="keys symbol" data-key="*">*</div>
+                <button class="btn" onclick="calculate()">=</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js" defer></script>
+</body>
+
+</html>
