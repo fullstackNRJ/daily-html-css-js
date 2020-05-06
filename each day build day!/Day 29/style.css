@@ -12,7 +12,7 @@ html{
 
 
 .search{
-    margin: 10% auto;
+    margin: 1rem auto;
     height: 20rem;
     width: 20rem;
     display:flex;
@@ -21,6 +21,23 @@ html{
     align-items: center;
     background-color: rgb(122, 121, 118);
 }
+
+.searchResults{
+  margin: 5rem 40rem ;
+  width: 55rem;
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+.resultItem {
+    opacity: 0;
+    margin-bottom: 20px;
+    animation: show 0.5s forwards ease-in-out;
+    color: white;
+    border-radius: 2px;
+    padding: 10px;
+    width: 100%;
+  }
 
 a{
     height: 2rem;
@@ -35,3 +52,15 @@ a{
 .search__input{
     background-color: aliceblue;
 }
+
+@keyframes show {
+    0% {
+      opacity: 0;
+      transform: translateY(100px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
