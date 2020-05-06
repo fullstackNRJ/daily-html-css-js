@@ -1,0 +1,37 @@
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    background-color: #333;
+}
+
+
+.search{
+    margin: 10% auto;
+    height: 20rem;
+    width: 20rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(122, 121, 118);
+}
+
+a{
+    height: 2rem;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+.btn .cta{
+
+}
+
+.search__input{
+    background-color: aliceblue;
+}
