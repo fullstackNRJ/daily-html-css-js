@@ -9,34 +9,40 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="display"></div>
-        <div class="calc">
-            <div class="helper">
-                <div class="keys C" data-key="clear">C</div>
-                <div class="keys AC" date-key="clear">AC</div>
-                <div class="keys bcksp" data-key="erase"> ↩ </div>
-            </div>
-            <div class="numeric">
-                <div class="keys" data-key="7">7</div>
-                <div class="keys" data-key="8">8</div>
-                <div class="keys" data-key="9">9</div>
-                <div class="keys" data-key="4">4</div>
-                <div class="keys" data-key="5">5</div>
-                <div class="keys" data-key="6">6</div>
-                <div class="keys" data-key="1">1</div>
-                <div class="keys" data-key="2">2</div>
-                <div class="keys" data-key="3">3</div>
-                <div class="keys" data-key="0">0</div>
+    <div class="calculator">
 
-                <div class="keys symbol" data-key="+">+</div>
-                <div class="keys symbol" data-key="-">-</div>
-                <div class="keys symbol" data-key="/">/</div>
-                <div class="keys symbol" data-key="*">*</div>
-                <button class="btn" onclick="calculate()">=</button>
-            </div>
+        <input type="text" class="calculator-screen" value="0" disabled />
+        
+        <div class="calculator-keys">
+          
+          <button type="button" class="operator" value="+">+</button>
+          <button type="button" class="operator" value="-">-</button>
+          <button type="button" class="operator" value="*">&times;</button>
+          <button type="button" class="operator" value="/">&divide;</button>
+      
+          <button type="button" value="7">7</button>
+          <button type="button" value="8">8</button>
+          <button type="button" value="9">9</button>
+      
+      
+          <button type="button" value="4">4</button>
+          <button type="button" value="5">5</button>
+          <button type="button" value="6">6</button>
+      
+      
+          <button type="button" value="1">1</button>
+          <button type="button" value="2">2</button>
+          <button type="button" value="3">3</button>
+      
+      
+          <button type="button" value="0">0</button>
+          <button type="button" class="decimal" value=".">.</button>
+          <button type="button" class="all-clear" value="all-clear">AC</button>
+      
+          <button type="button" class="equal-sign operator" value="=">=</button>
+      
         </div>
-    </div>
+      </div>
 
     <script src="main.js" defer></script>
 </body>
