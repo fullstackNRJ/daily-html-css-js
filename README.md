@@ -45,3 +45,6 @@ Motivate yourself to code daily till 30 days, and see the magic!
 | [Day 26](./each%20day%20build%20day!/Day%2026/) | [Text to Speech](./each%20day%20build%20day!/Day%2026/) | [demo]() | [Takeaways](./each%20day%20build%20day!/Day%2026/README.md/) |
 | [Day 27](./each%20day%20build%20day!/Day%2027/) | [Fancy Dropdown like stripe](./each%20day%20build%20day!/Day%2027/) | [demo]() | [Takeaways](./each%20day%20build%20day!/Day%2027/README.md/) |
 | [Day 28](./each%20day%20build%20day!/Day%2028/) | [Calculator](./each%20day%20build%20day!/Day%2028/) | [demo]() | [Takeaways](./each%20day%20build%20day!/Day%2028/README.md/) |
+| [Day 29](./each%20day%20build%20day!/Day%2029/) | [Wiki search challenge](./each%20day%20build%20day!/Day%2029/) | [demo]() | [Takeaways](./each%20day%20build%20day!/Day%2029/README.md/) |
+| [Day 30](./each%20day%20build%20day!/Day%2030/) | [Click and Scroll effect](./each%20day%20build%20day!/Day%2030/) | [demo]() | [Takeaways](./each%20day%20build%20day!/Day%2030/README.md/) |
+| [Day 31](./each%20day%20build%20day!/Day%2031/) | [Playback controller](./each%20day%20build%20day!/Day%2031/) | [demo]() | [Takeaways](./each%20day%20build%20day!/Day%2031/README.md/) | 
